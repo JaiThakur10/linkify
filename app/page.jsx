@@ -37,7 +37,7 @@ export default function Page() {
         {/* Header */}
         <div className="text-center mb-14">
           <h1 className="text-5xl font-bold mb-3 text-white tracking-tight">
-            Your Problem Links
+            Here’s What You Need
           </h1>
           <p className="text-neutral-400 text-lg">
             Quick access to all your resources
