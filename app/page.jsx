@@ -36,10 +36,10 @@ export default function Page() {
       <div className="max-w-4xl mx-auto px-6 py-14">
         {/* Header */}
         <div className="text-center mb-14">
-          <h1 className="text-5xl font-bold mb-3 text-white tracking-tight">
+          <h1 className="text-xl md:text-5xl font-bold mb-3 text-white tracking-tight">
             Here’s What You Need
           </h1>
-          <p className="text-neutral-400 text-lg">
+          <p className="text-neutral-400 text-xs md:text-lg">
             Quick access to all your resources
           </p>
         </div>
@@ -69,13 +69,13 @@ export default function Page() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
                     <h3
-                      className="text-xl font-semibold text-white mb-2
+                      className="text-md md:text-xl font-semibold text-white mb-2
                                    group-hover:text-white/90 transition-colors"
                     >
                       {item.heading}
                     </h3>
 
-                    <p className="text-sm text-neutral-500 flex items-center gap-2">
+                    <p className="text-xs md:text-sm text-neutral-500 flex items-center gap-2">
                       <ExternalLink className="w-4 h-4" />
                       Click to open resource
                     </p>
@@ -83,14 +83,14 @@ export default function Page() {
 
                   {/* Icon bubble */}
                   <div
-                    className="shrink-0 w-12 h-12 bg-[#181818] border border-[#2a2a2a]
+                    className="shrink-0 w-8 h-8 md:w-12 md:h-12 bg-[#181818] border border-[#2a2a2a]
                                   group-hover:border-[#3a3a3a]
                                   rounded-xl flex items-center justify-center transition-all
                                   shadow-[0_0_6px_rgba(0,0,0,0.4)]
                                   group-hover:shadow-[0_0_15px_rgba(255,255,255,0.08)]"
                   >
                     <svg
-                      className="w-6 h-6 text-neutral-400 group-hover:text-white transition-colors"
+                      className="md:w-6 md:h-6 w-4 h-4 text-neutral-400 group-hover:text-white transition-colors"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
